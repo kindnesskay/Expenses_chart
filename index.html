@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>expense traker</title>
+  </head>
+  <body>
+    <main>
+      <div class="top">
+        <div class="left">
+          <p>My balance</p>
+          <p class="money" id="balance">---</p>
+        </div>
+        <div class="right">
+          <div class="toggle toggle_off">
+            <div class="ball" id="ball"></div>
+          </div>
+        </div>
+      </div>
+      <div class="chart">
+        <canvas id="chart" width="375px" height="300px"></canvas>
+      </div>
+      <div class="bottom">
+        <div class="left">
+          <p>Total this month</p>
+          <p class="money" id="total_this_month">---</p>
+        </div>
+        <div class="right">
+          <p class="brought_forward">+2.4%</p>
+          <p>From last month</p>
+        </div>
+      </div>
+    </main>
+    <script src="./barChart.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
