@@ -35,7 +35,7 @@ Will continue to work on the chart library
 
 ## image
 
-[page view](./pageview.png)
+![page view](./pageview.png)
 
 ## live url
 
