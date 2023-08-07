@@ -32,7 +32,8 @@ Will continue to work on the chart library
 ### Useful resources
 
 [barchart.js](https://github.com/kindnesskay/barChart)
-
+## image
+[page view]()
 ## live url
 
-[live url]()
+[live url](https://kindnesskay.github.io/Expenses_chart/)
